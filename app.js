@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 
 app.get('/',(req,res)=>{
-    res.send("Hello World");
+    res.send("Hello Eswar! Your server is deployed successfully.");
 })
 
 app.listen(port, ()=>{
