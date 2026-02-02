@@ -10,4 +10,8 @@ app.get('/',(req,res)=>{
 
 app.listen(port, ()=>{
     console.log(`Server is running at ${port}`);
+    
+    setInterval(() => {
+        fetch("https://render-deploy-onwa.onrender.com/")
+    },840000);
 })
